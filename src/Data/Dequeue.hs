@@ -48,7 +48,7 @@ module Data.Dequeue (
 import Prelude hiding (foldl, foldr, foldl1, foldr1, length, last)
 
 import Control.Monad
-import Data.Foldable
+import Data.Foldable hiding (length)
 import qualified Data.List as List
 
 import Test.QuickCheck
